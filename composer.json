@@ -1,0 +1,30 @@
+{
+    "name": "thulium/retrofit-php-client-guzzle7",
+    "description": "Retrofit for PHP - Guzzle7 Client",
+    "type": "library",
+    "keywords": [
+        "http",
+        "http-client",
+        "rest",
+        "rest-client",
+        "retrofit"
+    ],
+    "homepage": "https://github.com/thulium/retrofit-php",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/thulium/retrofit-php/issues"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Retrofit\\Client\\Guzzle7\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
